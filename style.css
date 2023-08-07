@@ -27,10 +27,36 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr;
   gap: 3rem;
-
   padding: 1rem;
   background-color: #1992d4;
   color: #fff;
+}
+
+.sidebar .dashboard-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.sidebar .dashboard-logo img {
+  height: 3rem;
+  filter: invert(1);
+}
+
+.sidebar .sidebar-menu ul li,
+.sidebar .sidebar-settings ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.sidebar .sidebar-menu ul li img,
+.sidebar .sidebar-settings ul li img {
+  height: 2rem;
+  filter: invert(1);
 }
 
 /* header style */
