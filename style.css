@@ -62,8 +62,25 @@ body {
 /* header style */
 .header {
   display: grid;
-  /* grid-template-columns: 3fr 1fr; */
   grid-template: auto 1fr / 2fr 1fr;
+  padding: 0.5rem 2rem;
+}
+
+.header .search-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+}
+
+.header .search-bar label img {
+  height: 2rem;
+}
+
+.header .search-bar .search-input {
+  height: 1.5rem;
+  border-radius: 10px;
+  flex: 1;
 }
 
 /* main-content style */
