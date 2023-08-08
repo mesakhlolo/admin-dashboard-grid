@@ -64,6 +64,7 @@ body {
   display: grid;
   grid-template: auto 1fr / 2fr 1fr;
   padding: 0.5rem 2rem;
+  background-color: #fff;
 }
 
 .header .search-bar {
@@ -81,6 +82,25 @@ body {
   height: 1.5rem;
   border-radius: 10px;
   flex: 1;
+  padding: 0 10px;
+  background-color: #ededed;
+}
+
+.header .profile-bar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .profile-bar .bell-icon {
+  height: 1.7rem;
+}
+
+.header .profile-bar .profile-pic {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
 }
 
 /* main-content style */
