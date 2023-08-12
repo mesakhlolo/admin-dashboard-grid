@@ -167,6 +167,8 @@ body {
 .main-content .projects .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem 1rem;
+  margin-top: 10px;
 }
 
 .main-content .projects .project-container .project-card {
