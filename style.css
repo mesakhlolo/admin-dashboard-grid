@@ -156,6 +156,7 @@ body {
 .main-content {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  grid-template-rows: min-content 1fr;
   gap: 1rem;
   padding: 1rem 2rem;
 }
@@ -229,4 +230,31 @@ body {
   font-size: 14px;
   margin-top: 5px;
   margin-bottom: 16px;
+}
+
+.main-content .trending .trending-container {
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-content .trending .trending-container .trending-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-content .trending .trending-container .trending-card img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.main-content .trending .trending-container .trending-card .trending-username {
+  font-weight: bold;
 }
